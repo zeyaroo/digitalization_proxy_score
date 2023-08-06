@@ -18,7 +18,7 @@ def make_request(uri, headers, params):
     return response_json
 
 def main(company, start_year, end_year, url):
-    subscription_key = "0a3fdb66c96040f280ca369a6bd01d45"
+    subscription_key = "BING-KEY"
     uri = 'https://api.bing.microsoft.com/v7.0/search'
     headers = {
         'Ocp-Apim-Subscription-Key' : subscription_key,
